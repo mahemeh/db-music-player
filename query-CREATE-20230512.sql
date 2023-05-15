@@ -64,4 +64,4 @@ CREATE TABLE `playlist_track` (
         REFERENCES `track`(`track_id`) 
         ON UPDATE CASCADE ON DELETE CASCADE
 )
-desc playlist;
+desc playlist; 
